@@ -1,0 +1,57 @@
+ body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:black;
+
+ }
+
+ .main {
+    margin: 10px auto;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    gap: 1px;
+    justify-content: flex-start;
+
+
+ }
+ .childOne {
+     width: 40%;
+     height: 100%;
+     background: url('/background.jpg') no-repeat center;
+     background-size:cover;
+
+ }
+ .childTwo {
+    width: 60%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.966);
+
+ }
+
+.odinLogo {
+    width: 100%;
+    height:10%;
+   
+    background-color:  rgb(49, 52, 54);
+    opacity: 0.7;
+    align-items:center;
+    color: white;
+  
+}
+.odinLogo > img {
+    width: 50%;
+    height: 100%;
+}
+.text {
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.formElements {
+    background-color: #fff;
+    text-transform: uppercase;
+    box-shadow:#fff;
+}
