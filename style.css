@@ -32,17 +32,20 @@
 
 .odinLogo {
     width: 100%;
-    height:10%;
+    height:100%;
    
     background-color:  rgb(49, 52, 54);
     opacity: 0.7;
     align-items:center;
     color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
   
 }
-.odinLogo > img {
+.odinLogo >img {
     width: 50%;
-    height: 100%;
+    height: 10%;
 }
 .text {
     padding: 10px;
